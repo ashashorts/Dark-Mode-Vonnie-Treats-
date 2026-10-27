@@ -30,7 +30,7 @@ app.post("/register", function(req, res) {
     });
 
     res.send(`
-        <h1>You have successfully registered</h1>
+        <h1>You have successfully registered!!</h1>
 
         <a href="/login.html">
             Go to Login Page
@@ -55,7 +55,7 @@ app.post("/login", function(req, res) {
     if(foundUser) {
 
         res.send(`
-            <h1>You have logged in successfully</h1>
+            <h1>You have logged in successfully!!</h1>
 
             <a href="/login.html">
                 Back to Login
